@@ -2,6 +2,17 @@
   
     
         "post0": {
+            "title": "Tutorial Yolov5",
+            "content": "Entre no repositório github do yolov5: https://github.com/ultralytics/yolov5 . | Abra o notebook colab . | . Clique no ícone [ ] para rodar o código de setup . | . 4. .",
+            "url": "https://opassos.github.io/blog/2021/09/22/Tutorial-YoloV5.html",
+            "relUrl": "/2021/09/22/Tutorial-YoloV5.html",
+            "date": " • Sep 22, 2021"
+        }
+        
+    
+  
+    
+        ,"post1": {
             "title": "Olá Mundo",
             "content": "Miss&#227;o . Sou um apaixonado por Deep Learning e decidi juntar a minha experiência em sala de aula com essa paixão. Em minhas redes sociais vou te ensinar o caminho mais curto para se tornar um especialista em Machine Learning e se tornar um profissional desejado e mais bem pago. . Meus Links: . GitHub | Kaggle | LinkedIn | Instagram | YouTube | Facebook | .",
             "url": "https://opassos.github.io/blog/ol%C3%A1%20mundo/jupyter/2021/09/22/Ola-Mundo.html",
