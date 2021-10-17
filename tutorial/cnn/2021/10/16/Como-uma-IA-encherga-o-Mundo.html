@@ -4,19 +4,20 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>Title | O Passos</title>
+<title>Como uma IA Encherga o Mundo? 🤖 | O Passos</title>
 <meta name="generator" content="Jekyll v4.1.1" />
-<meta property="og:title" content="Title" />
+<meta property="og:title" content="Como uma IA Encherga o Mundo? 🤖" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Blog Oficial do Adriano Passos." />
-<meta property="og:description" content="Blog Oficial do Adriano Passos." />
-<link rel="canonical" href="https://opassos.github.io/blog/2021/10/16/Como-uma-IA-encherga-o-Mundo.html" />
-<meta property="og:url" content="https://opassos.github.io/blog/2021/10/16/Como-uma-IA-encherga-o-Mundo.html" />
+<meta name="description" content="Tutorial de Convoluções" />
+<meta property="og:description" content="Tutorial de Convoluções" />
+<link rel="canonical" href="https://opassos.github.io/blog/tutorial/cnn/2021/10/16/Como-uma-IA-encherga-o-Mundo.html" />
+<meta property="og:url" content="https://opassos.github.io/blog/tutorial/cnn/2021/10/16/Como-uma-IA-encherga-o-Mundo.html" />
 <meta property="og:site_name" content="O Passos" />
+<meta property="og:image" content="https://opassos.github.io/blog/images/A-valid-convolution-of-a-5x5-image-with-a-3x3-kernel-The-kernel-will-be-applied-to.png" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2021-10-16T00:00:00-05:00" />
 <script type="application/ld+json">
-{"url":"https://opassos.github.io/blog/2021/10/16/Como-uma-IA-encherga-o-Mundo.html","@type":"BlogPosting","headline":"Title","dateModified":"2021-10-16T00:00:00-05:00","datePublished":"2021-10-16T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://opassos.github.io/blog/2021/10/16/Como-uma-IA-encherga-o-Mundo.html"},"description":"Blog Oficial do Adriano Passos.","@context":"https://schema.org"}</script>
+{"url":"https://opassos.github.io/blog/tutorial/cnn/2021/10/16/Como-uma-IA-encherga-o-Mundo.html","@type":"BlogPosting","headline":"Como uma IA Encherga o Mundo? 🤖","dateModified":"2021-10-16T00:00:00-05:00","datePublished":"2021-10-16T00:00:00-05:00","image":"https://opassos.github.io/blog/images/A-valid-convolution-of-a-5x5-image-with-a-3x3-kernel-The-kernel-will-be-applied-to.png","mainEntityOfPage":{"@type":"WebPage","@id":"https://opassos.github.io/blog/tutorial/cnn/2021/10/16/Como-uma-IA-encherga-o-Mundo.html"},"description":"Tutorial de Convoluções","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/blog/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://opassos.github.io/blog/feed.xml" title="O Passos" /><link rel="shortcut icon" type="image/x-icon" href="/blog/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
@@ -71,7 +72,7 @@ window.onload = wrap_img;
         <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">Title</h1><p class="post-meta post-meta-title"><time class="dt-published" datetime="2021-10-16T00:00:00-05:00" itemprop="datePublished">
+    <h1 class="post-title p-name" itemprop="name headline">Como uma IA Encherga o Mundo? 🤖</h1><p class="page-description">Tutorial de Convoluções</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2021-10-16T00:00:00-05:00" itemprop="datePublished">
         Oct 16, 2021
       </time>
        • <span class="read-time" title="Estimated read time">
@@ -81,6 +82,16 @@ window.onload = wrap_img;
     
 </span></p>
 
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
+      
+        <a class="category-tags-link" href="/blog/categories/#Tutorial">Tutorial</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/blog/categories/#CNN">CNN</a>
+        
+      
+      </p>
     
 
     
@@ -14239,7 +14250,15 @@ Callbacks:
 
 
 
-  </div><a class="u-url" href="/blog/2021/10/16/Como-uma-IA-encherga-o-Mundo.html" hidden></a>
+  </div><!-- from https://github.com/utterance/utterances -->
+<script src="https://utteranc.es/client.js"
+        repo="opassos/blog"
+        issue-term="title"
+        label="blogpost-comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script><a class="u-url" href="/blog/tutorial/cnn/2021/10/16/Como-uma-IA-encherga-o-Mundo.html" hidden></a>
 </article>
       </div>
     </main><footer class="site-footer h-card">
